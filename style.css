@@ -1,0 +1,318 @@
+
+.card-container, .front, .back {
+	width: 20rem;
+	height: 20rem;
+}
+.card-container {
+	margin: 5rem;
+}
+.front, .back {
+	box-sizing: border-box;
+	padding: 2rem;
+	border-radius: 4px;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
+
+	font-family: BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-size: 2rem;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+/* front side  */ 
+.front {
+ 
+    background-color: beige;
+    color: black;
+
+}
+
+.front img{
+    
+    border-radius: 50%;
+}
+
+/* back side  */ 
+.back {
+background-color:  #1D809F;
+
+}
+
+.card-container {
+	position: relative;
+}
+.front, .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+	overflow: hidden;
+	transition: transform .8s ease;
+}
+.back {
+	transform: rotateY(180deg);
+}
+.card-container:hover .front {
+	transform: rotateY(-180deg);
+}
+.card-container:hover .back {
+	transform: rotateY(0deg);
+}
+
+.card-container {
+	perspective: 75rem;
+}
+
+/* bottom card */
+
+.bottom-card{
+    background-color: beige;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0);
+
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+  }
+.oslinImg{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 110px;
+    display: flex;
+}
+.title-oslin{
+  margin-left: 150px;
+  display: flex;
+}
+
+a:visited {
+    color: green;
+  }
+
+  
+
+/* contact us */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  display:flex;
+
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  border-radius: 2px;
+}
+
+
+.containerContact {
+  margin: 0;
+    background-color: beige;
+  padding: 30px;
+  height: 750px;
+  box-sizing: border-box;
+
+  
+}
+
+.img2{
+  height: 300px;
+  border-radius: 50%;
+  border: #ccc;
+  display: flex;
+  
+}
+.headingAddress{
+  font-family: sans-serif;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.list1{
+    text-decoration: none;
+  font-family: sans-serif;
+  padding-left: 10px;
+  padding-top: 15px;
+  font-size: 10px;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 10px;
+  padding: 20px;
+  padding-top: 10px;
+
+}
+
+ .list2 {
+
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.list2 li {
+  display:inline;
+  line-height: 100px;
+  justify-content: space-between;
+
+}
+
+ .list2 li a {
+  color: #04AA6D;;
+  font-size: large;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.list2 li a:hover {
+
+  color: #5da98d;
+    
+}
+
+/* reference */
+
+.card-container, .front, .back {
+	width: 20rem;
+	height: 20rem;
+}
+.card-container {
+	margin: 5rem;
+}
+.front, .back {
+	box-sizing: border-box;
+	padding: 2rem;
+	border-radius: 4px;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
+
+	font-family: BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-size: 2rem;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+/* front side  */ 
+.front {
+ 
+    background-color: beige;
+    color: black;
+
+}
+
+.front img{
+    
+    border-radius: 50%;
+}
+
+/* back side  */ 
+.back {
+background-color:  #1D809F;
+
+}
+
+.card-container {
+	position: relative;
+}
+.front, .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+	overflow: hidden;
+	transition: transform .8s ease;
+}
+.back {
+	transform: rotateY(180deg);
+}
+.card-container:hover .front {
+	transform: rotateY(-180deg);
+}
+.card-container:hover .back {
+	transform: rotateY(0deg);
+}
+
+.card-container {
+	perspective: 75rem;
+}
+
+/* bottom card */
+
+.bottom-card{
+    background-color: beige;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0);
+
+}
+
+.oslinImg{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 110px;
+    display: flex;
+}
+.title-oslin{
+  margin-left: 150px;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
